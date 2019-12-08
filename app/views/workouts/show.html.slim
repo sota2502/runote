@@ -1,0 +1,24 @@
+p#notice = notice
+
+p
+  strong Note:
+  = @workout.note
+p
+  strong Meter:
+  = @workout.meter
+p
+  strong Kcal:
+  = @workout.kcal
+p
+  strong Steps:
+  = @workout.steps
+p
+  strong Sec:
+  = @workout.sec
+p
+  strong Memo:
+  = @workout.memo
+
+=> link_to 'Edit', edit_workout_path(@workout)
+'|
+=< link_to 'Back', workouts_path

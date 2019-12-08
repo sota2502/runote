@@ -1,0 +1,24 @@
+p#notice = notice
+
+p
+  strong User:
+  = @note.user
+p
+  strong Date:
+  = @note.date
+p
+  strong Weather:
+  = @note.weather
+p
+  strong Location:
+  = @note.location
+p
+  strong Physical conditions:
+  = @note.physical_conditions
+p
+  strong Diary:
+  = @note.diary
+
+=> link_to 'Edit', edit_note_path(@note)
+'|
+=< link_to 'Back', notes_path

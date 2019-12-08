@@ -1,0 +1,31 @@
+h1 Listing workouts
+
+table
+  thead
+    tr
+      th Note
+      th Meter
+      th Kcal
+      th Steps
+      th Sec
+      th Memo
+      th
+      th
+      th
+
+  tbody
+    - @workouts.each do |workout|
+      tr
+        td = workout.note
+        td = workout.meter
+        td = workout.kcal
+        td = workout.steps
+        td = workout.sec
+        td = workout.memo
+        td = link_to 'Show', workout
+        td = link_to 'Edit', edit_workout_path(workout)
+        td = link_to 'Destroy', workout, data: { confirm: 'Are you sure?' }, method: :delete
+
+br
+
+= link_to 'New Workout', new_workout_path

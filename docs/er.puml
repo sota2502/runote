@@ -1,0 +1,33 @@
+
+@startuml
+
+class User {
+  id
+  email
+  nickname
+}
+
+class Note {
+  id
+  date
+  user_id
+  weather
+  location
+  physical_conditions
+  diary
+}
+
+class Workout {
+  id
+  node_id
+  meter
+  kcal
+  steps
+  sec
+  memo
+}
+
+User "1" <- "N" Note
+Note "1" <- "N" Workout
+
+@enduml

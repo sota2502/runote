@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="157px" preserveAspectRatio="none" style="width:348px;height:157px;" version="1.1" viewBox="0 0 348 157" width="348px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="fp6v2keey4a32" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0" />
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0" />
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3" />
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal" />
+        </filter>
+    </defs>
+    <g>
+        <!--MD5=[3fd616f346a44cd59a91eb10b19e157c]
+class User-->
+        <rect fill="#FEFECE" filter="url(#fp6v2keey4a32)" height="86.8652" id="User" style="stroke: #A80036; stroke-width: 1.5;" width="63" x="6" y="34" />
+        <ellipse cx="23.25" cy="50" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;" />
+        <path d="M25.7231,56.1431 Q25.1421,56.4419 24.5029,56.5913 Q23.8638,56.7407 23.1582,56.7407 Q20.6514,56.7407 19.3315,55.0889 Q18.0117,53.437 18.0117,50.3159 Q18.0117,47.1865 19.3315,45.5347 Q20.6514,43.8828 23.1582,43.8828 Q23.8638,43.8828 24.5112,44.0322 Q25.1587,44.1816 25.7231,44.4805 L25.7231,47.2031 Q25.0923,46.6221 24.4988,46.3523 Q23.9053,46.0825 23.2744,46.0825 Q21.9297,46.0825 21.2449,47.1492 Q20.5601,48.2158 20.5601,50.3159 Q20.5601,52.4077 21.2449,53.4744 Q21.9297,54.541 23.2744,54.541 Q23.9053,54.541 24.4988,54.2712 Q25.0923,54.0015 25.7231,53.4204 Z " /><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="26" x="37.75" y="54.5352">User</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="68" y1="66" y2="66" /><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="10" x="12" y="80.6348">id</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="28" x="12" y="93.5898">email</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="51" x="12" y="106.5449">nickname</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="68" y1="112.8652" y2="112.8652" />
+        <!--MD5=[5d3c9bb25b1b07c105e03cfa5bc0b7ee]
+class Note-->
+        <rect fill="#FEFECE" filter="url(#fp6v2keey4a32)" height="138.6855" id="Note" style="stroke: #A80036; stroke-width: 1.5;" width="119" x="104" y="8" />
+        <ellipse cx="146" cy="24" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;" />
+        <path d="M148.4731,30.1431 Q147.8921,30.4419 147.2529,30.5913 Q146.6138,30.7407 145.9082,30.7407 Q143.4014,30.7407 142.0815,29.0889 Q140.7617,27.437 140.7617,24.3159 Q140.7617,21.1865 142.0815,19.5347 Q143.4014,17.8828 145.9082,17.8828 Q146.6138,17.8828 147.2612,18.0322 Q147.9087,18.1816 148.4731,18.4805 L148.4731,21.2031 Q147.8423,20.6221 147.2488,20.3523 Q146.6553,20.0825 146.0244,20.0825 Q144.6797,20.0825 143.9949,21.1492 Q143.3101,22.2158 143.3101,24.3159 Q143.3101,26.4077 143.9949,27.4744 Q144.6797,28.541 146.0244,28.541 Q146.6553,28.541 147.2488,28.2712 Q147.8423,28.0015 148.4731,27.4204 Z " /><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="27" x="166" y="28.5352">Note</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="105" x2="222" y1="40" y2="40" /><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="10" x="110" y="54.6348">id</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="23" x="110" y="67.5898">date</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="40" x="110" y="80.5449">user_id</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="42" x="110" y="93.5">weather</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="43" x="110" y="106.4551">location</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="107" x="110" y="119.4102">physical_conditions</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="27" x="110" y="132.3652">diary</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="105" x2="222" y1="138.6855" y2="138.6855" />
+        <!--MD5=[f8778037f1b2103ef58d96999396e27c]
+class Workout-->
+        <rect fill="#FEFECE" filter="url(#fp6v2keey4a32)" height="138.6855" id="Workout" style="stroke: #A80036; stroke-width: 1.5;" width="79" x="258" y="8" />
+        <ellipse cx="273" cy="24" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;" />
+        <path d="M275.4731,30.1431 Q274.8921,30.4419 274.2529,30.5913 Q273.6138,30.7407 272.9082,30.7407 Q270.4014,30.7407 269.0815,29.0889 Q267.7617,27.437 267.7617,24.3159 Q267.7617,21.1865 269.0815,19.5347 Q270.4014,17.8828 272.9082,17.8828 Q273.6138,17.8828 274.2612,18.0322 Q274.9087,18.1816 275.4731,18.4805 L275.4731,21.2031 Q274.8423,20.6221 274.2488,20.3523 Q273.6553,20.0825 273.0244,20.0825 Q271.6797,20.0825 270.9949,21.1492 Q270.3101,22.2158 270.3101,24.3159 Q270.3101,26.4077 270.9949,27.4744 Q271.6797,28.541 273.0244,28.541 Q273.6553,28.541 274.2488,28.2712 Q274.8423,28.0015 275.4731,27.4204 Z " /><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="47" x="287" y="28.5352">Workout</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="259" x2="336" y1="40" y2="40" /><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="10" x="264" y="54.6348">id</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="43" x="264" y="67.5898">node_id</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="31" x="264" y="80.5449">meter</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="21" x="264" y="93.5">kcal</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="29" x="264" y="106.4551">steps</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="18" x="264" y="119.4102">sec</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="33" x="264" y="132.3652">memo</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="259" x2="336" y1="138.6855" y2="138.6855" />
+        <!--MD5=[61caf585bdd86e52f82f53f886b6a8db]
+reverse link User to Note-->
+        <path d="M74.56,77.5 C84.26,77.5 93.95,77.5 103.64,77.5 " fill="none" id="User&lt;-Note" style="stroke: #A80036; stroke-width: 1.0;" />
+        <polygon fill="#A80036" points="69.49,77.5,78.49,81.5,74.49,77.5,78.49,73.5,69.49,77.5" style="stroke: #A80036; stroke-width: 1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="76.9129" y="73.5674">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="10" x="86.1406" y="74.2373">N</text>
+        <!--MD5=[18c7ed2567bd8b6368a7682da3b2ea67]
+reverse link Note to Workout-->
+        <path d="M228.3,77.5 C238.11,77.5 247.92,77.5 257.72,77.5 " fill="none" id="Note&lt;-Workout" style="stroke: #A80036; stroke-width: 1.0;" />
+        <polygon fill="#A80036" points="223.17,77.5,232.17,81.5,228.17,77.5,232.17,73.5,223.17,77.5" style="stroke: #A80036; stroke-width: 1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="230.9298" y="74.1924">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="10" x="240.0234" y="73.833">N</text>
+        <!--MD5=[99687e1919e8838791d410c420716620]
+@startuml
+
+class User {
+  id
+  email
+  nickname
+}
+
+class Note {
+  id
+  date
+  user_id
+  weather
+  location
+  physical_conditions
+  diary
+}
+
+class Workout {
+  id
+  node_id
+  meter
+  kcal
+  steps
+  sec
+  memo
+}
+
+User "1" <- "N" Note
+Note "1" <- "N" Workout
+
+@enduml
+
+PlantUML version 1.2019.11(Sun Sep 22 19:02:15 JST 2019)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 11.0.1+13-LTS
+Operating System: Mac OS X
+Default Encoding: UTF-8
+Language: ja
+Country: JP
+-->
+    </g>
+</svg>

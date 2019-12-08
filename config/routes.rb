@@ -12,6 +12,12 @@ Rails.application.routes.draw do
     get "logout", :to => "users/sessions#destroy"
   end
 
+  resources :user do
+    resources :notes do
+      resources :workouts
+    end
+  end
+
   root to: 'home#index'
   get 'home/index'
 end

@@ -10,7 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_12_07_110522) do
+ActiveRecord::Schema.define(version: 2019_12_08_134908) do
+
+  create_table "notes", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
+    t.bigint "user_id", null: false
+    t.date "date", null: false
+    t.integer "weather", limit: 1
+    t.string "location"
+    t.integer "physical_conditions", limit: 1
+    t.text "diary"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["user_id", "date"], name: "index_notes_on_user_id_and_date", unique: true
+    t.index ["user_id"], name: "index_notes_on_user_id"
+  end
 
   create_table "users", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
     t.string "email", default: "", null: false
@@ -30,4 +43,18 @@ ActiveRecord::Schema.define(version: 2019_12_07_110522) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
+  create_table "workouts", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
+    t.bigint "note_id", null: false
+    t.integer "meter", unsigned: true
+    t.integer "kcal", unsigned: true
+    t.integer "steps", unsigned: true
+    t.integer "sec", unsigned: true
+    t.text "memo"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["note_id"], name: "index_workouts_on_note_id"
+  end
+
+  add_foreign_key "notes", "users"
+  add_foreign_key "workouts", "notes"
 end
