@@ -18,6 +18,7 @@
     "webpack-dev-server": "^3.9.0"
   },
   "resolutions": {
-    "glob-parent": "^6.0.2"
+    "glob-parent": "^6.0.2",
+    "@rails/webpacker/**/ansi-regex": "^5.0.1"
   }
 }
