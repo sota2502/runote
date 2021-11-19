@@ -19,6 +19,7 @@
   },
   "resolutions": {
     "glob-parent": "^6.0.2",
-    "@rails/webpacker/**/ansi-regex": "^5.0.1"
+    "@rails/webpacker/**/ansi-regex": "^5.0.1",
+    "@rails/webpacker/**/nth-check": "^2.0.1"
   }
 }
